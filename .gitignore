@@ -1,0 +1,60 @@
+# ----------------------------------------------------------------------
+# SO / artefatos
+# ----------------------------------------------------------------------
+.DS_Store
+
+# ----------------------------------------------------------------------
+# Python / uv
+# ----------------------------------------------------------------------
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.python-version
+
+# ----------------------------------------------------------------------
+# Variáveis de ambiente / segredos
+# ----------------------------------------------------------------------
+.env
+*.env.local
+
+# ----------------------------------------------------------------------
+# IDE
+# ----------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+
+# ----------------------------------------------------------------------
+# Ferramentas de IA (assistentes locais) — configuração pessoal
+# ----------------------------------------------------------------------
+.claude/
+CLAUDE.md
+
+# ----------------------------------------------------------------------
+# Notas internas, planos e rascunhos de pesquisa não validados.
+# A dissertação final vive fora deste repositório.
+# ----------------------------------------------------------------------
+experimentos/docs/
+
+# ----------------------------------------------------------------------
+# Dataset (base estruturada, embeddings, PDFs originais e schemas
+# semânticos descrevendo o domínio) vive em repositório separado.
+# Ver link no README. Somente `data/outputs/` (resultados de avaliação)
+# fica versionado aqui.
+# ----------------------------------------------------------------------
+experimentos/data/*
+!experimentos/data/outputs/
+experimentos/data/outputs/checkpoint_*.json
+experimentos/data/outputs/**/checkpoint_*.json
+
+# ----------------------------------------------------------------------
+# PoC: dados locais, env, cache
+# ----------------------------------------------------------------------
+poc/data/
+poc/.env
+poc/__pycache__/

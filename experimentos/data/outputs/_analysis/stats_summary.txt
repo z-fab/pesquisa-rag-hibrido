@@ -1,0 +1,68 @@
+Resumo estatístico — Plano v2
+==================================================
+
+n_items main = 1080, n_models_main = 9
+n_items edge = 360, n_models_edge = 3
+
+[Parte 2] Impacto — Completa vs Simples (pooled)
+   quality                     : p=7.866e-18 mean_diff=+0.143 r_rb=+0.63 direção=9/9 modelos [SIG]
+   completude                  : p=3.603e-17 mean_diff=+0.275 r_rb=+0.72 direção=9/9 modelos [SIG]
+   fidelidade                  : p=2.104e-10 mean_diff=-0.141 r_rb=-0.47 direção=0/9 modelos [SIG]
+   rastreabilidade             : p=6.367e-33 mean_diff=+0.295 r_rb=+0.91 direção=9/9 modelos [SIG]
+   retrieval_precision         : p=0.09558 mean_diff=-0.019 r_rb=-0.22 direção=2/9 modelos [ns]
+   retrieval_recall            : p=0.001373 mean_diff=+0.033 r_rb=+0.82 direção=7/9 modelos [SIG]
+   latency_total               : p=3.754e-44 mean_diff=+41.818 r_rb=+0.98 direção=9/9 modelos [SIG]
+   match_type                  : p=0.2266 mean_diff=+0.000 r_rb=+0.00 [ns]
+   match_agents                : p=0.25 mean_diff=+0.000 r_rb=+0.00 [ns]
+   sql_match                   : p=0.005355 mean_diff=+0.000 r_rb=+0.00 [SIG]
+   friedman_4arch_quality: chi2=144.36, p=4.344e-31, W=0.178
+
+[Parte 3] Ablação sequencial
+   verifier (full vs no-verifier):
+      quality                   : p=0.2893 mean_diff=+0.016 r_rb=+0.09 [ns]
+      completude                : p=0.236 mean_diff=+0.041 r_rb=+0.15 [ns]
+      fidelidade                : p=0.6147 mean_diff=-0.009 r_rb=-0.02 [ns]
+      rastreabilidade           : p=0.585 mean_diff=+0.017 r_rb=+0.10 [ns]
+      sql_match                 : p=0.4497 mean_diff=-0.015 r_rb=-0.14 [ns]
+      retrieval_precision       : p=0.05303 mean_diff=-0.016 r_rb=-0.49 [ns]
+      retrieval_recall          : p=0.3173 mean_diff=+0.006 r_rb=+1.00 [ns]
+      latency_total             : p=1.495e-42 mean_diff=+35.865 r_rb=+0.96 [SIG]
+   synthesizer (no-verifier vs no-synthesizer):
+      quality                   : p=0.003582 mean_diff=-0.028 r_rb=-0.21 [SIG]
+      completude                : p=0.5301 mean_diff=+0.005 r_rb=-0.06 [ns]
+      fidelidade                : p=2.609e-11 mean_diff=-0.128 r_rb=-0.58 [SIG]
+      rastreabilidade           : p=0.0002218 mean_diff=+0.041 r_rb=+0.39 [SIG]
+      latency_total             : p=0.002221 mean_diff=-0.481 r_rb=+0.21 [SIG]
+   router (no-synthesizer vs poc):
+      quality                   : p=2.872e-20 mean_diff=+0.154 r_rb=+0.67 [SIG]
+      match_type                : p=0.763 mean_diff=-0.004 r_rb=-0.09 [ns]
+      match_agents              : p=0.08326 mean_diff=+0.011 r_rb=+1.00 [ns]
+      sql_match                 : p=0.008636 mean_diff=+0.074 r_rb=+0.34 [SIG]
+      retrieval_precision       : p=0.07451 mean_diff=-0.025 r_rb=-0.25 [ns]
+      retrieval_recall          : p=0.008039 mean_diff=+0.025 r_rb=+0.58 [SIG]
+      latency_total             : p=2.629e-17 mean_diff=+6.434 r_rb=+0.59 [SIG]
+
+[Parte 4] Heterogeneidade — por família
+   gemini     Friedman: chi2=48.06 p=2.07e-10 W=0.178 [SIG]
+   gpt        Friedman: chi2=42.24 p=3.576e-09 W=0.156 [SIG]
+   qwen       Friedman: chi2=60.10 p=5.605e-13 W=0.223 [SIG]
+
+[Parte 4] Heterogeneidade — por tipo de pergunta
+   S    Friedman: chi2=64.83 p=5.465e-14 W=0.240 [SIG]
+   NS   Friedman: chi2=35.83 p=8.133e-08 W=0.133 [SIG]
+   H    Friedman: chi2=48.48 p=1.686e-10 W=0.180 [SIG]
+
+[Parte 6] Concordância entre juízes: calculado
+   n itens com 3 juízes completos: 1440
+   Cohen's κ weighted (pares × dimensões):
+      j1_vs_j2    completude            κ=+0.731  (substancial)
+      j1_vs_j2    fidelidade            κ=+0.365  (fraca)
+      j1_vs_j2    rastreabilidade       κ=+0.397  (fraca)
+      j1_vs_j3    completude            κ=+0.678  (substancial)
+      j1_vs_j3    fidelidade            κ=+0.573  (moderada)
+      j1_vs_j3    rastreabilidade       κ=+0.614  (substancial)
+      j2_vs_j3    completude            κ=+0.750  (substancial)
+      j2_vs_j3    fidelidade            κ=+0.292  (fraca)
+      j2_vs_j3    rastreabilidade       κ=+0.354  (fraca)
+   ICC(3,k) quality: 0.871  (boa)
+   Itens com alta divergência (|max - min| >= 2 em alguma dimensão): 156 (10.8%)

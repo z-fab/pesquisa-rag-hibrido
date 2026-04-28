@@ -1,0 +1,217 @@
+model_key,model,feature,dimension,spearman_rho,n
+gemini-flash,Gemini Flash,overall_pass,completude,0.4425,30
+gemini-flash,Gemini Flash,overall_pass,fidelidade,0.0415,30
+gemini-flash,Gemini Flash,overall_pass,rastreabilidade,0.6667,30
+gemini-flash,Gemini Flash,overall_pass,quality,0.4352,30
+gemini-flash,Gemini Flash,completeness_covered,completude,0.4425,30
+gemini-flash,Gemini Flash,completeness_covered,fidelidade,0.0415,30
+gemini-flash,Gemini Flash,completeness_covered,rastreabilidade,0.6667,30
+gemini-flash,Gemini Flash,completeness_covered,quality,0.4352,30
+gemini-flash,Gemini Flash,n_missing_aspects,completude,-0.4425,30
+gemini-flash,Gemini Flash,n_missing_aspects,fidelidade,-0.0415,30
+gemini-flash,Gemini Flash,n_missing_aspects,rastreabilidade,-0.6667,30
+gemini-flash,Gemini Flash,n_missing_aspects,quality,-0.4352,30
+gemini-flash,Gemini Flash,pct_supported,completude,,30
+gemini-flash,Gemini Flash,pct_supported,fidelidade,,30
+gemini-flash,Gemini Flash,pct_supported,rastreabilidade,,30
+gemini-flash,Gemini Flash,pct_supported,quality,,30
+gemini-flash,Gemini Flash,pct_not_supported,completude,,30
+gemini-flash,Gemini Flash,pct_not_supported,fidelidade,,30
+gemini-flash,Gemini Flash,pct_not_supported,rastreabilidade,,30
+gemini-flash,Gemini Flash,pct_not_supported,quality,,30
+gemini-flash,Gemini Flash,pct_partial,completude,,30
+gemini-flash,Gemini Flash,pct_partial,fidelidade,,30
+gemini-flash,Gemini Flash,pct_partial,rastreabilidade,,30
+gemini-flash,Gemini Flash,pct_partial,quality,,30
+gemini-flash-lite,Gemini Flash-Lite,overall_pass,completude,0.3389,30
+gemini-flash-lite,Gemini Flash-Lite,overall_pass,fidelidade,0.0,30
+gemini-flash-lite,Gemini Flash-Lite,overall_pass,rastreabilidade,0.4432,30
+gemini-flash-lite,Gemini Flash-Lite,overall_pass,quality,0.2947,30
+gemini-flash-lite,Gemini Flash-Lite,completeness_covered,completude,0.3389,30
+gemini-flash-lite,Gemini Flash-Lite,completeness_covered,fidelidade,0.0,30
+gemini-flash-lite,Gemini Flash-Lite,completeness_covered,rastreabilidade,0.4432,30
+gemini-flash-lite,Gemini Flash-Lite,completeness_covered,quality,0.2947,30
+gemini-flash-lite,Gemini Flash-Lite,n_missing_aspects,completude,-0.3389,30
+gemini-flash-lite,Gemini Flash-Lite,n_missing_aspects,fidelidade,0.0,30
+gemini-flash-lite,Gemini Flash-Lite,n_missing_aspects,rastreabilidade,-0.4432,30
+gemini-flash-lite,Gemini Flash-Lite,n_missing_aspects,quality,-0.2947,30
+gemini-flash-lite,Gemini Flash-Lite,pct_supported,completude,0.1534,30
+gemini-flash-lite,Gemini Flash-Lite,pct_supported,fidelidade,-0.1001,30
+gemini-flash-lite,Gemini Flash-Lite,pct_supported,rastreabilidade,0.3079,30
+gemini-flash-lite,Gemini Flash-Lite,pct_supported,quality,0.1078,30
+gemini-flash-lite,Gemini Flash-Lite,pct_not_supported,completude,,30
+gemini-flash-lite,Gemini Flash-Lite,pct_not_supported,fidelidade,,30
+gemini-flash-lite,Gemini Flash-Lite,pct_not_supported,rastreabilidade,,30
+gemini-flash-lite,Gemini Flash-Lite,pct_not_supported,quality,,30
+gemini-flash-lite,Gemini Flash-Lite,pct_partial,completude,-0.1534,30
+gemini-flash-lite,Gemini Flash-Lite,pct_partial,fidelidade,0.1001,30
+gemini-flash-lite,Gemini Flash-Lite,pct_partial,rastreabilidade,-0.3079,30
+gemini-flash-lite,Gemini Flash-Lite,pct_partial,quality,-0.1078,30
+gemini-pro,Gemini Pro,overall_pass,completude,,30
+gemini-pro,Gemini Pro,overall_pass,fidelidade,,30
+gemini-pro,Gemini Pro,overall_pass,rastreabilidade,,30
+gemini-pro,Gemini Pro,overall_pass,quality,,30
+gemini-pro,Gemini Pro,completeness_covered,completude,,30
+gemini-pro,Gemini Pro,completeness_covered,fidelidade,,30
+gemini-pro,Gemini Pro,completeness_covered,rastreabilidade,,30
+gemini-pro,Gemini Pro,completeness_covered,quality,,30
+gemini-pro,Gemini Pro,n_missing_aspects,completude,,30
+gemini-pro,Gemini Pro,n_missing_aspects,fidelidade,,30
+gemini-pro,Gemini Pro,n_missing_aspects,rastreabilidade,,30
+gemini-pro,Gemini Pro,n_missing_aspects,quality,,30
+gemini-pro,Gemini Pro,pct_supported,completude,,30
+gemini-pro,Gemini Pro,pct_supported,fidelidade,,30
+gemini-pro,Gemini Pro,pct_supported,rastreabilidade,,30
+gemini-pro,Gemini Pro,pct_supported,quality,,30
+gemini-pro,Gemini Pro,pct_not_supported,completude,,30
+gemini-pro,Gemini Pro,pct_not_supported,fidelidade,,30
+gemini-pro,Gemini Pro,pct_not_supported,rastreabilidade,,30
+gemini-pro,Gemini Pro,pct_not_supported,quality,,30
+gemini-pro,Gemini Pro,pct_partial,completude,,30
+gemini-pro,Gemini Pro,pct_partial,fidelidade,,30
+gemini-pro,Gemini Pro,pct_partial,rastreabilidade,,30
+gemini-pro,Gemini Pro,pct_partial,quality,,30
+gpt,GPT-5,overall_pass,completude,-0.1185,30
+gpt,GPT-5,overall_pass,fidelidade,0.3347,30
+gpt,GPT-5,overall_pass,rastreabilidade,-0.2164,30
+gpt,GPT-5,overall_pass,quality,0.0467,30
+gpt,GPT-5,completeness_covered,completude,-0.1527,30
+gpt,GPT-5,completeness_covered,fidelidade,0.172,30
+gpt,GPT-5,completeness_covered,rastreabilidade,-0.1048,30
+gpt,GPT-5,completeness_covered,quality,-0.0713,30
+gpt,GPT-5,n_missing_aspects,completude,0.1572,30
+gpt,GPT-5,n_missing_aspects,fidelidade,-0.1656,30
+gpt,GPT-5,n_missing_aspects,rastreabilidade,0.1048,30
+gpt,GPT-5,n_missing_aspects,quality,0.0773,30
+gpt,GPT-5,pct_supported,completude,-0.0927,30
+gpt,GPT-5,pct_supported,fidelidade,0.233,30
+gpt,GPT-5,pct_supported,rastreabilidade,-0.1946,30
+gpt,GPT-5,pct_supported,quality,0.04,30
+gpt,GPT-5,pct_not_supported,completude,-0.3239,30
+gpt,GPT-5,pct_not_supported,fidelidade,0.0119,30
+gpt,GPT-5,pct_not_supported,rastreabilidade,0.0728,30
+gpt,GPT-5,pct_not_supported,quality,-0.3082,30
+gpt,GPT-5,pct_partial,completude,0.1334,30
+gpt,GPT-5,pct_partial,fidelidade,-0.2461,30
+gpt,GPT-5,pct_partial,rastreabilidade,0.1947,30
+gpt,GPT-5,pct_partial,quality,-0.0083,30
+gpt-mini,GPT-5 Mini,overall_pass,completude,0.0358,30
+gpt-mini,GPT-5 Mini,overall_pass,fidelidade,0.1355,30
+gpt-mini,GPT-5 Mini,overall_pass,rastreabilidade,-0.0301,30
+gpt-mini,GPT-5 Mini,overall_pass,quality,0.1177,30
+gpt-mini,GPT-5 Mini,completeness_covered,completude,0.2484,30
+gpt-mini,GPT-5 Mini,completeness_covered,fidelidade,-0.1569,30
+gpt-mini,GPT-5 Mini,completeness_covered,rastreabilidade,0.28,30
+gpt-mini,GPT-5 Mini,completeness_covered,quality,0.1774,30
+gpt-mini,GPT-5 Mini,n_missing_aspects,completude,-0.2745,30
+gpt-mini,GPT-5 Mini,n_missing_aspects,fidelidade,0.1665,30
+gpt-mini,GPT-5 Mini,n_missing_aspects,rastreabilidade,-0.2952,30
+gpt-mini,GPT-5 Mini,n_missing_aspects,quality,-0.1985,30
+gpt-mini,GPT-5 Mini,pct_supported,completude,-0.12,30
+gpt-mini,GPT-5 Mini,pct_supported,fidelidade,0.1435,30
+gpt-mini,GPT-5 Mini,pct_supported,rastreabilidade,-0.1018,30
+gpt-mini,GPT-5 Mini,pct_supported,quality,-0.0148,30
+gpt-mini,GPT-5 Mini,pct_not_supported,completude,,30
+gpt-mini,GPT-5 Mini,pct_not_supported,fidelidade,,30
+gpt-mini,GPT-5 Mini,pct_not_supported,rastreabilidade,,30
+gpt-mini,GPT-5 Mini,pct_not_supported,quality,,30
+gpt-mini,GPT-5 Mini,pct_partial,completude,0.12,30
+gpt-mini,GPT-5 Mini,pct_partial,fidelidade,-0.1435,30
+gpt-mini,GPT-5 Mini,pct_partial,rastreabilidade,0.1018,30
+gpt-mini,GPT-5 Mini,pct_partial,quality,0.0148,30
+gpt-nano,GPT-5 Nano,overall_pass,completude,0.1267,30
+gpt-nano,GPT-5 Nano,overall_pass,fidelidade,0.2078,30
+gpt-nano,GPT-5 Nano,overall_pass,rastreabilidade,0.3007,30
+gpt-nano,GPT-5 Nano,overall_pass,quality,0.2058,30
+gpt-nano,GPT-5 Nano,completeness_covered,completude,0.1811,30
+gpt-nano,GPT-5 Nano,completeness_covered,fidelidade,0.1985,30
+gpt-nano,GPT-5 Nano,completeness_covered,rastreabilidade,0.4001,30
+gpt-nano,GPT-5 Nano,completeness_covered,quality,0.2916,30
+gpt-nano,GPT-5 Nano,n_missing_aspects,completude,-0.1967,30
+gpt-nano,GPT-5 Nano,n_missing_aspects,fidelidade,-0.2424,30
+gpt-nano,GPT-5 Nano,n_missing_aspects,rastreabilidade,-0.4107,30
+gpt-nano,GPT-5 Nano,n_missing_aspects,quality,-0.3269,30
+gpt-nano,GPT-5 Nano,pct_supported,completude,0.1001,30
+gpt-nano,GPT-5 Nano,pct_supported,fidelidade,0.2972,30
+gpt-nano,GPT-5 Nano,pct_supported,rastreabilidade,0.1082,30
+gpt-nano,GPT-5 Nano,pct_supported,quality,0.2007,30
+gpt-nano,GPT-5 Nano,pct_not_supported,completude,0.2641,30
+gpt-nano,GPT-5 Nano,pct_not_supported,fidelidade,0.0,30
+gpt-nano,GPT-5 Nano,pct_not_supported,rastreabilidade,0.0928,30
+gpt-nano,GPT-5 Nano,pct_not_supported,quality,0.259,30
+gpt-nano,GPT-5 Nano,pct_partial,completude,-0.1485,30
+gpt-nano,GPT-5 Nano,pct_partial,fidelidade,-0.2961,30
+gpt-nano,GPT-5 Nano,pct_partial,rastreabilidade,-0.1204,30
+gpt-nano,GPT-5 Nano,pct_partial,quality,-0.2474,30
+qwen-122b,Qwen 3.5 122B,overall_pass,completude,0.2798,30
+qwen-122b,Qwen 3.5 122B,overall_pass,fidelidade,0.2173,30
+qwen-122b,Qwen 3.5 122B,overall_pass,rastreabilidade,0.4661,30
+qwen-122b,Qwen 3.5 122B,overall_pass,quality,0.3893,30
+qwen-122b,Qwen 3.5 122B,completeness_covered,completude,0.3922,30
+qwen-122b,Qwen 3.5 122B,completeness_covered,fidelidade,-0.1271,30
+qwen-122b,Qwen 3.5 122B,completeness_covered,rastreabilidade,0.1569,30
+qwen-122b,Qwen 3.5 122B,completeness_covered,quality,0.3172,30
+qwen-122b,Qwen 3.5 122B,n_missing_aspects,completude,-0.3948,30
+qwen-122b,Qwen 3.5 122B,n_missing_aspects,fidelidade,0.1479,30
+qwen-122b,Qwen 3.5 122B,n_missing_aspects,rastreabilidade,-0.1674,30
+qwen-122b,Qwen 3.5 122B,n_missing_aspects,quality,-0.3132,30
+qwen-122b,Qwen 3.5 122B,pct_supported,completude,0.2627,30
+qwen-122b,Qwen 3.5 122B,pct_supported,fidelidade,0.2786,30
+qwen-122b,Qwen 3.5 122B,pct_supported,rastreabilidade,0.3222,30
+qwen-122b,Qwen 3.5 122B,pct_supported,quality,0.3203,30
+qwen-122b,Qwen 3.5 122B,pct_not_supported,completude,-0.1138,30
+qwen-122b,Qwen 3.5 122B,pct_not_supported,fidelidade,-0.4081,30
+qwen-122b,Qwen 3.5 122B,pct_not_supported,rastreabilidade,-0.5352,30
+qwen-122b,Qwen 3.5 122B,pct_not_supported,quality,-0.3036,30
+qwen-122b,Qwen 3.5 122B,pct_partial,completude,-0.1567,30
+qwen-122b,Qwen 3.5 122B,pct_partial,fidelidade,0.0225,30
+qwen-122b,Qwen 3.5 122B,pct_partial,rastreabilidade,0.141,30
+qwen-122b,Qwen 3.5 122B,pct_partial,quality,-0.0814,30
+qwen-35b,Qwen 3.5 35B,overall_pass,completude,0.262,30
+qwen-35b,Qwen 3.5 35B,overall_pass,fidelidade,-0.0721,30
+qwen-35b,Qwen 3.5 35B,overall_pass,rastreabilidade,0.2783,30
+qwen-35b,Qwen 3.5 35B,overall_pass,quality,0.2338,30
+qwen-35b,Qwen 3.5 35B,completeness_covered,completude,0.3411,30
+qwen-35b,Qwen 3.5 35B,completeness_covered,fidelidade,-0.3747,30
+qwen-35b,Qwen 3.5 35B,completeness_covered,rastreabilidade,0.2307,30
+qwen-35b,Qwen 3.5 35B,completeness_covered,quality,0.1943,30
+qwen-35b,Qwen 3.5 35B,n_missing_aspects,completude,-0.3411,30
+qwen-35b,Qwen 3.5 35B,n_missing_aspects,fidelidade,0.3747,30
+qwen-35b,Qwen 3.5 35B,n_missing_aspects,rastreabilidade,-0.2307,30
+qwen-35b,Qwen 3.5 35B,n_missing_aspects,quality,-0.1943,30
+qwen-35b,Qwen 3.5 35B,pct_supported,completude,0.087,30
+qwen-35b,Qwen 3.5 35B,pct_supported,fidelidade,0.1757,30
+qwen-35b,Qwen 3.5 35B,pct_supported,rastreabilidade,0.2011,30
+qwen-35b,Qwen 3.5 35B,pct_supported,quality,0.1559,30
+qwen-35b,Qwen 3.5 35B,pct_not_supported,completude,-0.0789,30
+qwen-35b,Qwen 3.5 35B,pct_not_supported,fidelidade,-0.1689,30
+qwen-35b,Qwen 3.5 35B,pct_not_supported,rastreabilidade,-0.1876,30
+qwen-35b,Qwen 3.5 35B,pct_not_supported,quality,-0.1435,30
+qwen-35b,Qwen 3.5 35B,pct_partial,completude,-0.022,30
+qwen-35b,Qwen 3.5 35B,pct_partial,fidelidade,-0.1811,30
+qwen-35b,Qwen 3.5 35B,pct_partial,rastreabilidade,-0.3206,30
+qwen-35b,Qwen 3.5 35B,pct_partial,quality,-0.1944,30
+qwen-397b,Qwen 3.5 397B,overall_pass,completude,0.332,30
+qwen-397b,Qwen 3.5 397B,overall_pass,fidelidade,0.138,30
+qwen-397b,Qwen 3.5 397B,overall_pass,rastreabilidade,0.1002,30
+qwen-397b,Qwen 3.5 397B,overall_pass,quality,0.3684,30
+qwen-397b,Qwen 3.5 397B,completeness_covered,completude,0.3638,30
+qwen-397b,Qwen 3.5 397B,completeness_covered,fidelidade,-0.2645,30
+qwen-397b,Qwen 3.5 397B,completeness_covered,rastreabilidade,0.1569,30
+qwen-397b,Qwen 3.5 397B,completeness_covered,quality,0.278,30
+qwen-397b,Qwen 3.5 397B,n_missing_aspects,completude,-0.3638,30
+qwen-397b,Qwen 3.5 397B,n_missing_aspects,fidelidade,0.2645,30
+qwen-397b,Qwen 3.5 397B,n_missing_aspects,rastreabilidade,-0.1569,30
+qwen-397b,Qwen 3.5 397B,n_missing_aspects,quality,-0.278,30
+qwen-397b,Qwen 3.5 397B,pct_supported,completude,0.1537,30
+qwen-397b,Qwen 3.5 397B,pct_supported,fidelidade,0.3457,30
+qwen-397b,Qwen 3.5 397B,pct_supported,rastreabilidade,-0.0282,30
+qwen-397b,Qwen 3.5 397B,pct_supported,quality,0.2448,30
+qwen-397b,Qwen 3.5 397B,pct_not_supported,completude,-0.0753,30
+qwen-397b,Qwen 3.5 397B,pct_not_supported,fidelidade,-0.3261,30
+qwen-397b,Qwen 3.5 397B,pct_not_supported,rastreabilidade,0.1331,30
+qwen-397b,Qwen 3.5 397B,pct_not_supported,quality,-0.1673,30
+qwen-397b,Qwen 3.5 397B,pct_partial,completude,-0.1694,30
+qwen-397b,Qwen 3.5 397B,pct_partial,fidelidade,-0.2561,30
+qwen-397b,Qwen 3.5 397B,pct_partial,rastreabilidade,-0.0212,30
+qwen-397b,Qwen 3.5 397B,pct_partial,quality,-0.2298,30

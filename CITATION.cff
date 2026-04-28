@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: "Arquitetura Multiagente Baseada em Modelos de Linguagem para Recuperação Híbrida de Informação — Código e Resultados Experimentais"
+message: "If you use this software/code, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Zillig"
+    given-names: "Fabrício Rodrigues"
+    affiliation: "Universidade Presbiteriana Mackenzie"
+repository-code: "https://github.com/z-fab/pesquisa-rag-hibrido"
+url: "https://github.com/z-fab/pesquisa-rag-hibrido"
+contact:
+  - family-names: "Silva"
+    given-names: "Leandro Augusto da"
+    affiliation: "Universidade Presbiteriana Mackenzie"
+    name-suffix: "(orientador)"
+  - family-names: "Martins"
+    given-names: "Valéria Farinazzo"
+    affiliation: "Universidade Presbiteriana Mackenzie"
+    name-suffix: "(coorientadora)"
+abstract: >-
+  Implementação de uma arquitetura multiagente baseada em Grandes Modelos de
+  Linguagem (LLMs) para recuperação híbrida de informação sobre dados
+  estruturados (SQL) e não estruturados (PDFs). Inclui pipeline em LangGraph
+  com Planner, recuperação SQL e textual, Synthesizer, Verifier e Consolidator;
+  suíte de avaliação com múltiplos juízes LLM; e os snapshots e agregados de
+  todas as execuções da dissertação. Desenvolvido no Programa de Pós-Graduação
+  em Computação Aplicada da Universidade Presbiteriana Mackenzie, sob
+  orientação do Prof. Dr. Leandro Augusto da Silva e coorientação da Profa.
+  Dra. Valéria Farinazzo Martins.
+keywords:
+  - "retrieval-augmented generation"
+  - "RAG"
+  - "multi-agent systems"
+  - "large language models"
+  - "hybrid information retrieval"
+  - "LangGraph"
+  - "text-to-SQL"
+  - "Design Science Research"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-04-24"
+references:
+  - type: data
+    title: "Agro-RAG Dataset: Benchmark Híbrido para RAG sobre Agricultura Brasileira"
+    authors:
+      - family-names: "Zillig"
+        given-names: "Fabrício Rodrigues"
+    url: "https://github.com/z-fab/agro-rag-dataset"
+    scope: "Dataset utilizado nos experimentos avaliados por este código."

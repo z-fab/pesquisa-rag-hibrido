@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Environment
+.env
+
+# Data (keep structure, ignore large files)
+data/dados.db
+data/chroma_db/
+data/outputs/checkpoint_*.json
+data/raw/**/*.pdf
+data/raw/**/*.csv
+
+# Docs (temporário — decidir depois o que commitar)
+docs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# uv
+uv.lock
+
+# Claude Code
+CLAUDE.md
