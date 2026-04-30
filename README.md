@@ -1,5 +1,7 @@
 # Arquitetura Multiagente Baseada em Modelos de Linguagem para Recuperação Híbrida de Informação
 
+[![DOI](https://zenodo.org/badge/1218554666.svg)](https://doi.org/10.5281/zenodo.19902336)
+
 Repositório da dissertação de mestrado de mesmo título, desenvolvida no Programa de Pós-Graduação em Computação Aplicada da Universidade Presbiteriana Mackenzie.
 
 - **Autor:** Fabrício Rodrigues Zillig
